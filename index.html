@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Start of header -->
-    <div class="header">
-        <img src="./landing page design/axiom logo@2x.png" alt="axiom logo">
-        <ul>
-            <li>Home</li>
-            <li>Courses</li>
-            <li>FAQs</li>
-            <li>About Us</li>
-        </ul>
-    </div>
+    <!-- Start of header -->   
+   
+    <nav class="header-elements">
+        <div class="img-div">
+            <img  src="./landing page design/axiom logo@2x.png" alt="axiom logo"/> 
+        </div>
 
-    <section>
+        <div class="nav-div">
+            <ul>
+                <li class="nave-buttons">Home</li>
+                <li class="nave-buttons">Courses</li>
+                <li class="nave-buttons">FAQs</li>
+                <li class="nave-buttons">About Us</li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <section class="main">
         <div class="text-class">
 
             <!-- main heading -->
+            <div class="main-heading">
             <h1>FAST TRACK CLOUD NATIVE <br/>
                 WEB & MOBILE DEVELOPER</h1>
+            </div>
             
             <!-- Sub heading -->
+            <div class="sub-heading">
             <h2>Become a Cloud Native & MERN Stack Developer in 8 Months!</h2>
-            
+            </div>
             <!-- paragraph -->
             <p>
                 Axiom is offering our extremely popular cloud native, web, and mobile specialist program online!
@@ -47,14 +58,16 @@
         </div>
 
         <!-- hero image  -->
-        <img width="50%" src="./Images/hero-image.png" alt="flate illustration of a web developer">
-
+        <div class="heroimg-div">
+        <img class="hero-img" src="./Images/hero-image.png" alt="flate illustration of a web developer">
+        </div>
         <!-- Call to action  -->
-        <button>
-            Enroll now
-        </button>
     </section>
 
+    <button>
+        Enroll now
+    </button>
+    
     <section>
         <img src="./Images/axiom.png" alt="banner for cloud native certified mern stack developer">
 

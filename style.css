@@ -1,8 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 html {
+    /* margin: 0px; */
+}
+body {
+    /* width: auto; */
+    font-family: 'Lato', 'sans-sarif';
     margin: 0;
 }
 
-body {
-    font-family: 'lato', 'sans-sarif';
+  
+.header-elements {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #060709;
+    font-size: 2em; 
+    color: white;
+    padding-right: 20px;
 }
+nav > img {
+    justify-content: flex-start;
+}
+
+/* ul {
+    
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+} */
+nav {
+    display: inline;
+}
+ul > li {
+    display: inline;  
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+}
+
+li.nave-buttons {
+    margin-left: 100px;
+}
+
+section.main {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    padding-left: 7em;
+    padding-right: 3em;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-heading {
+    display: flex;
+    width: 150%;
+
+}
+h1 {
+    font-size: 3em;
+    margin: 100px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0px 0 10px 0;
+    padding: 0px 0 0px 0;
+}
+ p{
+     /* background-color: black; */
+     font-size: 24px;
+     margin: 0px 0 10px 0;
+     padding: 0px 0 0px 0;
+     width: auto;
+ }
+heroimg-div{
+    display: flex;
+    position: relative;
+}
+.hero-img {
+    display: flex; 
+    width: 100%;
+
+ } 
+ button {
+     display: flex;
+     margin: 0px 500px 40px 500px;
+     width: 300px;
+     height: 50px;
+ }
+ .img-div {
+    /* padding-top: 15px; */
+    display: flex;
+    align-items: center;
+}
+
+ .nav-div {
+     padding: 10px 0 ;
+ }
